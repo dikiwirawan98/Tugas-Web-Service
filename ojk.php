@@ -2,7 +2,7 @@
 error_reporting (E_ALL ^ E_WARNING||E_NOTICE);
 $data=file_get_contents ('https://ojk-invest-api.vercel.app/api/illegals');
 $dataojk=json_decode($data);
-//echo "<pre>"; print_r($data_ojk->data->illegals);
+//echo "<pre>"; print_r($dataojk->data->illegals);
 
 $table = "<h1><center>DATA PERUSAHAAN OJK</center></h1>";
 $table .= "<table border = 1>";
